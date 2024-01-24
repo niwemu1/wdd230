@@ -1,10 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 header {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	padding: 25px;
-	border: 1px solid rgba(0, 0, 0, 0.1);
+	position: relative;
 }
+
+body {
+    font-family: 'Grape Nuts', cursive;
+    font-size: 20px; 
+}
+
+
 h1 {
     font-size: 2rem;
     color: rgb(251, 251, 252);
@@ -14,40 +27,57 @@ h2 {
     margin: 1rem 0;
 }
 
-nav ul {
-	list-style-type: none;
+main {
+    text-align: center;
 }
 
-nav {
-    background-color: black;
-    margin: 0 auto;
-	max-width: 2000px;
+#menu {
+	font-size: 1.5rem;
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	padding: 0.20rem ;
+	background-color: #eee;
+	color: #000;
+	position: absolute;
+	left: 0.10rem;
+    margin: 0.25rem 0;
     
+}
+
+#menu::before {
+	content: "☰";
+}
+
+#menu.open::before {
+	content: "X";
+}
+
+
+
+nav {
+    background-color: rgb(4, 13, 87); 
+	margin: 3rem 0 0;
 }
 
 nav a {
-    padding: 1rem;
     display: block;
     color: rgb(251, 251, 252);
     text-align: center;
+    padding: 1rem;
     text-decoration: none;
-    font-size: 20px;
-    
 }
 
 nav a:hover {
-    color: rgb(9, 156, 161);
+    background-color: rgb(9, 156, 161, 0.3);
 }
-
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+nav .active {
+    background-color: rgba(70, 175, 216, 0.1);
 }
 
 header, footer {
     background-color: rgb(18, 73, 156);
+}
+.map {
+    margin: 1rem 0;  
 }
 
 .card {
@@ -85,18 +115,58 @@ header, footer {
 p {
     color: aliceblue;
     text-align: center;
+    padding: 5px;
 }
 #lastmodified{
     color: yellow;
     font-size: small;
     padding:10px;
 }
-
-footer{
-    padding: 25px;
+.rwanda {
+    width: 100%;
+    max-height: 500px;
 }
-img {
+footer{
+   
+    display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 25px;
+	position: relative;
+}
+.debby {
     box-shadow: 2px 2px 10px black;
 }
 
+#darkBtn {
+    position:absolute;
+    top:10px;
+    right: 10px;
+    top: 1rem;right: 1rem;
+    width: 24px;
+    background-color: #fff;
+    cursor: pointer;
+    font-size: 2rem;
+}
+#flag {
+    display: grid;
+    height: 40px;
+    width: 40px;
+}
+
+main {
+	margin: 0;
+	background-color: #eee;
+	color: #000;
+}
+
+.social {
+    display: block;
+    margin: 0 auto;
+}
+.fb {
+    float: right;
+    padding: 1px 5px;
+    max-width: 30%;
+}
 

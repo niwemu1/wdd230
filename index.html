@@ -4,34 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>[Niwemugeni Deborah] - WDD 230 - Web Frontend Development"</title>
+    <title>Niwemugeni Deborah - WDD 230 - Web Frontend Development</title>
     <meta name="description" content="Course assignment portal">
     <meta name="author" content="Niwemugeni Deborah">
+    <meta property="og:title" content="Niwemugeni Deborah - WDD 230 - Web Frontend Development">
+    <meta property="og:type" content="Course assignment portal">
+    <meta property="og:images" content="">
+    <meta property="og:url" content="">
+    <link rel="icon" href="favicon_io (1)/favicon.ico">
     <link type="text/css" rel="stylesheet" href="styles/base.css">
     <link type="text/css" rel="stylesheet" href="styles/larger.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <img src="images/Debby picture.png" alt="Niwemugeni Deborah" width="80" height="120">
+        <img class="debby" src="images/debbie.jpg" alt="Niwemugeni Deborah" width="75" height="100">
         <h1>Niwemugeni Deborah</h1>
+
+        <img src="images/dark-theme-svgrepo-com.svg" alt="dark mode" id="darkBtn">
         
     </header>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li></li><a href="#">Chamber</a></li>
-        <li></li><a href="#">Site Plan</a></li>
-        <li></li><a href="#">From</a></li>
-      </ul>
+    <div id="darkBtn"></div>
+
+    <button id="menu" class="open"></button>
+    <nav class="navigation">  
+        <a class="active" href="index.html">Home</a>
+        <a href="week01/chamber-site-plan.html">Chamber</a>
+        <a href="#">Site Plan</a>
+        <a href="#">From</a>
     </nav>
+    <img class="rwanda" src="images/Kigali-city.png" alt="rwanda">
     <main>
       <h2>WDD 230: Web Frontend Development</h2>
-
+    
       <div class="card">
          <section>
              <h3>Learning Activities</h3>
              <ul>
-                 <li><a href="#">Week 01:</a></li>
+                 <li><a href="#">Week 01: Layout | Media Query | Js Pen</a></li>
                  <li><a href="#">Week 02:</a></li>
                  <li><a href="#">Week 03:</a></li>
                  <li><a href="#">Week 04:</a></li>
@@ -44,17 +56,35 @@
              <ul class="info">
                  <li><a href="#">Kigali, Rwanda</a></li><br>
                  <li><a href="#">Sunshine</a></li><br>
-                 <li><a href="#">Page Visits : 20</a></li>
+                 <li><a href="#">Page Visits: 20 </a></li>
                 
              </ul>
          </section>
       </div>
+      
+      <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15950.429811048662!2d30.06867703861178!3d-1.9074909777487106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dca1685aa7b38b%3A0xd979706d63ac7f9a!2sKagugu%2C%20Kigali!5e0!3m2!1sen!2srw!4v1679565233472!5m2!1sen!2srw" width="350" height="" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
     </main>
     <footer>
-        <p>&copy;<span id="year"></span> | Deborah Niwemugeni | Rwanda</p>
-        <p id="lastmodified">Last modified:01/01/2024 14:00:00</p>
+        <p>&copy;<span id="year"></span> | Deborah Niwemugeni | Rwanda </p>
+        <img id="flag" src="images/Rwanda-Waved-Flag-icon.png" alt="flag" >
+        <p><span id="lastmodified"></span></p>
+
+        <div class="social">
+            <a href="https://facebook.com">
+                <img class="fb" src="https://byui-wdd.github.io/wdd130/rafting_images/facebook.png" alt="fb icon">
+            </a>
+            <a href="https://twitter.com">
+                <img class="fb" src="https://byui-wdd.github.io/wdd130/rafting_images/twitter.png" alt="twitter icon">
+            </a>
+            <a href="https://instagram.com">
+                <img class="fb" src="https://byui-wdd.github.io/wdd130/rafting_images/instagram.png" alt="instagram icon">
+            </a>
+        </div>
+
     </footer>
-    <script src="scripts/getDates.js"></script>
-        
+    <script src="scripts/getDates.js"></script>       
 </body>
 </html>

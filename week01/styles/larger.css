@@ -10,24 +10,10 @@
 
 @media only screen and (min-width: 38rem) {
 
-    .card {
-        display: grid;
-        grid-template-columns: 2fr 1fr;
-        column-gap: 10px;
-    }
-
     .card section{
+        display: grid;
+        grid-template-columns: 2fr 2fr ;
+        column-gap: 10px;
         box-shadow: 1px 1px 10px black;
     }
-}
-
-@media (min-width: 37.5em) {
-
-	#menu {
-		display: none; 
-	}
-
-	.navigation {
-		flex-direction: row;
-	}
 }
