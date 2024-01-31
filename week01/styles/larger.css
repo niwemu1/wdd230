@@ -1,12 +1,23 @@
-@media (min-width: 60px) {
-	nav {
-		display: flex;
-        justify-content: center;
+ 
+@media only screen and (min-width: 38rem) {
+
+    #myButton {
+		display: none;
 	}
-	nav a {
+
+	ul.menuLinks, ul.menuLinks.open {
+		display: flex;
+		justify-content: center;
+	}
+
+	ul.menuLinks,li,a{
 		flex: 1 1 15%;
 	}
-} 
+
+	ul.menuLinks a:hover {
+		background-color: rgb(9, 156, 161, 0.3);
+	}
+}
 
 @media only screen and (min-width: 38rem) {
 

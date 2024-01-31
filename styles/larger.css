@@ -1,14 +1,21 @@
-@media (min-width: 60px) {
-	nav {
-		display: flex;
-        justify-content: center;
-	}
-	nav a {
-		flex: 1 1 15%;
-	}
-} 
 
 @media only screen and (min-width: 38rem) {
+	#myButton {
+		display: none;
+	}
+
+	ul.menuLinks, ul.menuLinks.open {
+		display: flex;
+		justify-content: center;
+	}
+
+	ul.menuLinks,li,a{
+		flex: 1 1 15%;
+	}
+
+	ul.menuLinks a:hover {
+		background-color: rgb(9, 156, 161, 0.3);
+	}
 
     .card {
         display: grid;
@@ -19,15 +26,4 @@
     .card section{
         box-shadow: 1px 1px 10px black;
     }
-}
-
-@media (min-width: 37.5em) {
-
-	#menu {
-		display: none; 
-	}
-
-	.navigation {
-		flex-direction: row;
-	}
 }
