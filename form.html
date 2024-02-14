@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Niwemugeni Deborah - WDD 230 - Web Frontend Development</title>
+    <meta name="description" content="Course assignment portal">
+    <meta name="author" content="Niwemugeni Deborah">
+    <meta property="og:title" content="Niwemugeni Deborah - WDD 230 - Web Frontend Development">
+    <meta property="og:type" content="Course assignment portal">
+    <meta property="og:images" content="https://byui-wdd.github.io/wdd130/rafting_images/facebook.png">
+    <meta property="og:url" content=" https://niwemu1.github.io/wdd230/">
+    <link rel="icon" href="favicon_io(1)/favicon.ico">
+    <link type="text/css" rel="stylesheet" href="styles/base.css">
+    <link type="text/css" rel="stylesheet" href="styles/larger.css">
+    <link type="text/css" rel="stylesheet" href="styles/form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+      <img class="debby" src="images/debbie.jpg" alt="Niwemugeni Deborah" width="75" height="100">
+      <h1>Niwemugeni Deborah</h1>
+  </header>
+
+  <img id="darkBtn" src="images/dark-theme-svgrepo-com.svg" alt="dark mode">
+      <nav>  
+        <button id="myButton"></button>
+        <ul class="menuLinks">
+           <li><a href="index.html">Home</a></li>
+           <li><a href="chamber/index.html">Chamber</a></li>
+          <li><a href="week01/chamber-site-plan.html">Site Plan</a></li>
+           <li><a class="active" href="form.html">From</a></li>
+        </ul>  
+     </nav>          
+  
+  <div class="container">
+    <h2>Become a member</h2>
+    <br>
+
+    <form method="get" action="record.html">
+      <div><b>Log In Credentials</b><br><br>
+        <label>Username* 
+          <input type="text" pattern="[A-Za-z]{5}" title="Five letter country code" id="username" name="uname" placeholder="Username" required>
+        </label>
+
+        <label>Password*
+          <input type="password" pattern="[A-Za-z]{8}" title="Eight letter country code" id="Password" name="pname" placeholder="Password" required>
+        </label>
+        <label>Confirm Password
+          <input type="password" pattern="[A-Za-z]{8}" title="Three letter country code" id="confrim" name="cname" placeholder="Confirm" required>
+        </label>
+        
+        <div id="feeback"></div>
+      </div>
+      <div><b> Personal Information</b><br><br>
+        <label>Email*
+          <input type="email" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address" id="email" name="ename" placeholder="Email" required>
+        </label>
+      </div>
+      <div><b>Rating</b><br><br>
+        <label for="r">Range</label>
+        <div id="rangevalue">0</div>
+        <input type="range" id="r" name="r" min="0" max="5" value="0" step="1" list="rangevalues">
+        <datalist id="rangevalues">
+	        <option value="0">0</option>
+	        <option value="1">1</option>
+	        <option value="2">2</option>
+	        <option value="3">3</option>
+	        <option value="4">4</option>
+	        <option value="5">5</option>
+        </datalist>
+      </div>
+
+      <input type="submit" value="Submit" >
+    </form>
+  </div>
+  <footer>
+    <p>&copy;<span id="year"></span> | Deborah Niwemugeni | Rwanda </p>
+    <img id="flag" src="images/Rwanda-Waved-Flag-icon.png" alt="flag" >
+    <p><span> Last Modified: </span><span id="lastmodified"></span></p>
+
+    <div class="social">
+        <a href="https://facebook.com">
+            <img class="fb" src="https://byui-wdd.github.io/wdd130/rafting_images/facebook.png" alt="fb icon">
+        </a>
+        <a href="https://twitter.com">
+            <img class="fb" src="https://byui-wdd.github.io/wdd130/rafting_images/twitter.png" alt="twitter icon">
+        </a>
+        <a href="https://instagram.com">
+            <img class="fb" src="https://byui-wdd.github.io/wdd130/rafting_images/instagram.png" alt="instagram icon">
+        </a>
+    </div>
+
+  </footer>
+  <script src="scripts/formvalidation.js"></script>
+</body>
+</html>

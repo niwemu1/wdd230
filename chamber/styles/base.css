@@ -178,3 +178,66 @@ picture img {
     height: auto;
     
 }
+form {
+    margin: 0 auto;
+    width: 50%;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+    background: #dccba9;
+}  
+.button {
+    padding-left: 90px; 
+}
+    
+button {
+    margin-left: 0.5em;
+}
+div {
+    border-radius: 4px;
+    overflow: hidden;
+    margin: 1rem 0;
+    font-size: 2rem;
+}
+  
+#r {
+	width: 180px;
+	margin-bottom: 0;
+}
+
+#rangevalue {
+	font-size: 2rem;
+	color: navy;
+}
+
+#rangevalues {
+	display: flex;
+	margin: 0 0 0 25px;
+	width: 200px;
+}
+
+#rangevalues option {
+	flex: 1 1 auto;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input[type=submit] {
+    width: 100%;
+    background-color: #182769;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 2rem;
+}
+input[type=submit]:hover {
+    background-color: #044f8b;
+}

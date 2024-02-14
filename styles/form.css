@@ -1,0 +1,141 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+form {
+  margin: 0 auto;
+  width: 70%;
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+  background: #dccba9;
+  align-items: center;
+}
+.button {
+  padding-left: 90px;
+}
+.button {
+  margin-left: 0.5em;
+}
+div {
+  border-radius: 4px;
+  overflow: hidden;
+  margin: 1rem 0;
+  font-size: 2rem;
+}
+#r {
+  width: 180px;
+  margin-bottom: 0;
+}
+#rangevalue {
+  font-size: 2rem;
+  color: navy;
+}
+#rangevalues {
+  display: flex;
+  margin: 52px 0 0 0;
+  width: 200px;
+}
+#rangevalues option {
+  flex: 1 1 auto;
+}
+input[type=text], input[type=email], input[type=password] {
+  margin: 1rem;
+  padding: 5em;
+  width: 90%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type=range] {
+  margin: 1rem;
+  width: 90%;
+}
+input[type=submit] {
+  width: 100%;
+  background-color: #182769;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 2rem;
+}
+input[type=submit]:hover {
+  background-color: #044f8b;
+}*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+form {
+  margin: 0 auto;
+  width: 70%;
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+  background: #dccba9;
+  align-items: center;
+}
+.button {
+  padding-left: 90px;
+}
+.button {
+  margin-left: 0.5em;
+}
+div {
+  border-radius: 4px;
+  overflow: hidden;
+  margin: 1rem 0;
+  font-size: 2rem;
+}
+#r {
+  width: 180px;
+  margin-bottom: 0;
+}
+#rangevalue {
+  font-size: 2rem;
+  color: navy;
+}
+#rangevalues {
+  display: flex;
+  margin: 52px 0 0 0;
+  width: 200px;
+}
+#rangevalues option {
+  flex: 1 1 auto;
+}
+input[type=text], input[type=email], input[type=password] {
+  margin: 1rem;
+  padding: 5em;
+  width: 90%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type=range] {
+  margin: 1rem;
+  width: 90%;
+}
+input[type=submit] {
+  width: 100%;
+  background-color: #182769;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 2rem;
+}
+input[type=submit]:hover {
+  background-color: #044f8b;
+}

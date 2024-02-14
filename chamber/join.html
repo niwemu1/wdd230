@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[Niwemugeni Deborah] - WDD 230 - Web Frontend Development"</title>
+    <meta name="description" content="This is home page for the chamber">
+    <meta name="author" content="Niwemugeni Deborah">
+    <link type="text/css" rel="stylesheet" href="styles/base.css">
+    <link type="text/css" rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="favicon_io(1)/favicon.ico">
+    
+<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+      <img class="debby" src="images/rwanda-country-flag-inside-map-contour-design-icon-logo-border-suitable-138738773.webp" alt="Logo" width="100" height="100">
+        <h1>Join the Chamber of Commerce</h1>
+    </header>
+    <nav>  
+      <button id="myButton"></button>
+      <ul class="menuLinks">
+         <li><a href="index.html">Home</a></li>
+         <li><a href="discover.html">Discover</a></li>
+         <li><a href="#">Directory</a></li>
+         <li><a class="active" href="join.html">Join</a></li>
+      </ul>  
+   </nav>
+      <div class="container">
+        <h2>Membership Application</h2>
+        <form>
+            <div><b>Log In Credentials</b><hr><br><br>
+              <input type="radio" id="html" name="fav_language" value="HTML">
+              <label for="html">No Profit Membership $0</label><br>
+              <input type="radio" id="css" name="fav_language" value="CSS">
+              <label for="css">Bronze Membership $100</label><br>
+              <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+              <label for="javascript">Silver Membership $300</label><br><br>
+              <input type="radio" id="java" name="fav_language" value="Java">
+              <label for="javascript">Gold Membership $500</label><br><br>
+            </div>
+        </form>
+        <br><br><br>
+        
+        <form action="/action_page.php">
+          <div><b>Applicat Information</b><hr><br><br>
+            <label>First Name*</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name">
+        
+            <label>Last Name*</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name">
+
+            <label>Email*</label>
+            <input type="email" id="email" name="email" placeholder="someone@hotmail.com">
+        
+            <label>Phone*</label>
+            <input type="number" id="phone" name="phone" placeholder="123456789">
+
+            <label>Business/Organization Name*</label>
+            <input type="text" id="enron" name="business" placeholder="Enron Inc">
+        
+            <label>Organization description*</label>
+            <input type="text" id="tech" name="organization" placeholder="Tech Company">
+        
+            <label for="country">Country</label>
+            <select id="country" name="country">
+              <option value="australia">Australia</option>
+              <option value="canada">Canada</option>
+              <option value="usa">USA</option>
+              <option value="australia">Kenya</option>
+              <option value="canada">Uganda</option>
+              <option value="usa">Tanzaniya</option>
+              <option value="australia">DRC</option>
+              <option value="canada">Togo</option>
+              <option value="usa">Zimbabwe</option>
+            </select>
+        
+            <label>Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        
+            <input type="submit" value="Submit" >
+          </div>
+        </form>
+      </div>
+    <footer>
+      <p>&copy;<span id="year"></span> | Deborah Niwemugeni | Rwanda </p>
+      <img id="flag" src="images/Rwanda-Waved-Flag-icon.png" alt="flag" >
+      <p><span id="lastmodified"></span></p>
+
+      <div class="social">
+          <a href="https://facebook.com">
+              <img class="fb" src="https://byui-wdd.github.io/wdd130/rafting_images/facebook.png" alt="fb icon">
+          </a>
+          <a href="https://twitter.com">
+              <img class="fb" src="https://byui-wdd.github.io/wdd130/rafting_images/twitter.png" alt="twitter icon">
+          </a>
+          <a href="https://instagram.com">
+              <img class="fb" src="https://byui-wdd.github.io/wdd130/rafting_images/instagram.png" alt="instagram icon">
+          </a>
+      </div>
+
+  </footer>
+    <script src="scripts/getDates.js"></script>
+        
+</body>
+</html>
