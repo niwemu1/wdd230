@@ -1,0 +1,74 @@
+
+{
+    "weeks": [
+      {
+        "week": "Week 1",
+        "links": [
+          {
+            "url":"https://niwemu1.github.io/wdd230/",
+            "title":"HG Layout"
+          },
+          {
+            "url":"https://niwemu1.github.io/wdd230/",
+            "title":"mQueries"
+          }
+        ]
+      },
+
+      {
+        "week": "Week 2",
+        "links": [
+          {
+            "url":"https://niwemu1.github.io/wdd230/",
+            "title":"HG Layout"
+          },
+          {
+            "url":"https://niwemu1.github.io/wdd230/",
+            "title":"mQueries"
+          }
+        ]
+      },
+
+      {
+        "week": "Week 3",
+        "links": [
+          {
+            "url":"https://niwemu1.github.io/wdd230/",
+            "title":"HG Layout"
+          },
+          {
+            "url":"https://niwemu1.github.io/wdd230/",
+            "title":"mQueries"
+          }
+        ]
+      },
+
+      {
+        "week": "Week 4",
+        "links": [
+          {
+            "url":"https://niwemu1.github.io/wdd230/",
+            "title":"HG Layout"
+          },
+          {
+            "url":"https://niwemu1.github.io/wdd230/",
+            "title":"mQueries"
+          }
+        ]
+      },
+
+      {
+        "week": "Week 5",
+        "links": [
+          {
+            "url":"https://niwemu1.github.io/wdd230/",
+            "title":"HG Layout"
+          },
+          {
+            "url":"https://niwemu1.github.io/wdd230/",
+            "title":"mQueries"
+          }
+        ]
+      }
+   ]
+}
