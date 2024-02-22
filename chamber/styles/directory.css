@@ -33,27 +33,29 @@ section {
 	background-color: #eee;
 }
 
-.grid {
+.sss {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 	grid-gap: 5px;
 	align-items: center;
 }
 
-.grid section {
+.sss section {
 	text-align: center;
 }
 
-.grid img {
+.sss img {
 	border: 1px solid #fff;
 	box-shadow: 0 0 10px #333;
+	height: 200px;
+	max-width: 100%;
 }
 
-.grid section > * {
+.sss section > * {
 	margin: 0.1rem;
 }
 
-.grid h3 {
+.sss h3 {
 	font-family: 'Grape Nuts', cursive;
 }
 
@@ -105,7 +107,3 @@ section a {
 	letter-spacing: 1.1pt;
 }
 
-.sss {
-	height: 200px;
-	max-width: 100%;
-}
